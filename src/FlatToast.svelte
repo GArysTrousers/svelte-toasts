@@ -34,6 +34,7 @@
   };
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div
   class="st-toast flat {data.theme || theme} {data.type || 'info'}"
   on:click={onClick}
@@ -403,6 +404,8 @@
     width: 3rem;
     min-height: 3rem;
     min-width: 3rem;
-    transition: outline 110ms, background-color 110ms;
+    transition:
+      outline 110ms,
+      background-color 110ms;
   }
 </style>

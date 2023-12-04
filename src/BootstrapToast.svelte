@@ -20,6 +20,7 @@
   };
 </script>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div
   class="st-toast bootstrap {data.theme || theme} {data.type || 'info'}"
   role="alert"
